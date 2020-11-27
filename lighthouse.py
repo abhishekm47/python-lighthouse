@@ -29,6 +29,6 @@ def lighthouse_seo(test_url):
     r = requests.get(url=URL, params=PARAMS, stream=True)
     # extracting data in json format
     data = r.json()
-    #print(pprint.pprint(data["lighthouseResult"]["audits"]))
+    # print(pprint.pprint(data["lighthouseResult"]["audits"]))
     return data
 
